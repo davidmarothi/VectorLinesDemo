@@ -1,9 +1,9 @@
 
 #----------------------------- Global Properties ----------------------------#
 
-/outputDir:bin/Windows
-/intermediateDir:obj/Windows
-/platform:Windows
+/outputDir:bin/WindowsStoreApp
+/intermediateDir:obj/WindowsStoreApp
+/platform:WindowsStoreApp
 /config:
 /profile:Reach
 /compress:False

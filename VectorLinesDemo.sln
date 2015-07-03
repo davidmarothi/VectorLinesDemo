@@ -9,18 +9,18 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VectorLinesDemo.Shared", "V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorLinesDemo.WP8", "VectorLinesDemo.WP8\VectorLinesDemo.WP8.csproj", "{A99DF61D-964C-4FEA-A23C-4B68B6989C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorLinesDemo.UWP", "VectorLinesDemo.UWP\VectorLinesDemo.UWP.csproj", "{60124329-8A19-4E80-BDB9-2155269078BA}"
-EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VectorLinesDemo.Triangle.NET", "VectorLinesDemo.Triangle.NET\VectorLinesDemo.Triangle.NET.shproj", "{CAADD174-27C6-4999-AF66-AECA3BF28B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorLinesDemo.UWP", "VectorLinesDemo.UWP\VectorLinesDemo.UWP.csproj", "{E99BA31A-4D78-406A-B96C-FE74096B9CC7}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		VectorLinesDemo.Triangle.NET\VectorLinesDemo.Triangle.NET.projitems*{9d5addef-9712-438f-9a74-a43d660b3393}*SharedItemsImports = 4
 		VectorLinesDemo.Shared\VectorLinesDemo.Shared.projitems*{9d5addef-9712-438f-9a74-a43d660b3393}*SharedItemsImports = 4
-		VectorLinesDemo.Triangle.NET\VectorLinesDemo.Triangle.NET.projitems*{60124329-8a19-4e80-bdb9-2155269078ba}*SharedItemsImports = 4
-		VectorLinesDemo.Shared\VectorLinesDemo.Shared.projitems*{60124329-8a19-4e80-bdb9-2155269078ba}*SharedItemsImports = 4
 		VectorLinesDemo.Shared\VectorLinesDemo.Shared.projitems*{3ea3dea7-08d9-4587-9ece-30177f7fdbb5}*SharedItemsImports = 13
 		VectorLinesDemo.Triangle.NET\VectorLinesDemo.Triangle.NET.projitems*{caadd174-27c6-4999-af66-aeca3bf28b37}*SharedItemsImports = 13
+		VectorLinesDemo.Triangle.NET\VectorLinesDemo.Triangle.NET.projitems*{e99ba31a-4d78-406a-b96c-fe74096b9cc7}*SharedItemsImports = 4
+		VectorLinesDemo.Shared\VectorLinesDemo.Shared.projitems*{e99ba31a-4d78-406a-b96c-fe74096b9cc7}*SharedItemsImports = 4
 		VectorLinesDemo.Triangle.NET\VectorLinesDemo.Triangle.NET.projitems*{a99df61d-964c-4fea-a23c-4b68b6989c73}*SharedItemsImports = 4
 		VectorLinesDemo.Shared\VectorLinesDemo.Shared.projitems*{a99df61d-964c-4fea-a23c-4b68b6989c73}*SharedItemsImports = 4
 	EndGlobalSection
@@ -83,17 +83,28 @@ Global
 		{A99DF61D-964C-4FEA-A23C-4B68B6989C73}.Release|x86.ActiveCfg = Release|x86
 		{A99DF61D-964C-4FEA-A23C-4B68B6989C73}.Release|x86.Build.0 = Release|x86
 		{A99DF61D-964C-4FEA-A23C-4B68B6989C73}.Release|x86.Deploy.0 = Release|x86
-		{60124329-8A19-4E80-BDB9-2155269078BA}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{60124329-8A19-4E80-BDB9-2155269078BA}.Debug|Any CPU.Build.0 = Debug|x86
-		{60124329-8A19-4E80-BDB9-2155269078BA}.Debug|ARM.ActiveCfg = Debug|x86
-		{60124329-8A19-4E80-BDB9-2155269078BA}.Debug|x64.ActiveCfg = Debug|x86
-		{60124329-8A19-4E80-BDB9-2155269078BA}.Debug|x86.ActiveCfg = Debug|x86
-		{60124329-8A19-4E80-BDB9-2155269078BA}.Debug|x86.Build.0 = Debug|x86
-		{60124329-8A19-4E80-BDB9-2155269078BA}.Release|Any CPU.ActiveCfg = Release|x86
-		{60124329-8A19-4E80-BDB9-2155269078BA}.Release|ARM.ActiveCfg = Release|x86
-		{60124329-8A19-4E80-BDB9-2155269078BA}.Release|x64.ActiveCfg = Release|x86
-		{60124329-8A19-4E80-BDB9-2155269078BA}.Release|x86.ActiveCfg = Release|x86
-		{60124329-8A19-4E80-BDB9-2155269078BA}.Release|x86.Build.0 = Release|x86
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Debug|Any CPU.Build.0 = Debug|x86
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Debug|Any CPU.Deploy.0 = Debug|x86
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Debug|ARM.Build.0 = Debug|ARM
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Debug|x64.ActiveCfg = Debug|x64
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Debug|x64.Build.0 = Debug|x64
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Debug|x64.Deploy.0 = Debug|x64
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Debug|x86.ActiveCfg = Debug|x86
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Debug|x86.Build.0 = Debug|x86
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Debug|x86.Deploy.0 = Debug|x86
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Release|Any CPU.ActiveCfg = Release|x86
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Release|ARM.ActiveCfg = Release|ARM
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Release|ARM.Build.0 = Release|ARM
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Release|ARM.Deploy.0 = Release|ARM
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Release|x64.ActiveCfg = Release|x64
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Release|x64.Build.0 = Release|x64
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Release|x64.Deploy.0 = Release|x64
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Release|x86.ActiveCfg = Release|x86
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Release|x86.Build.0 = Release|x86
+		{E99BA31A-4D78-406A-B96C-FE74096B9CC7}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
