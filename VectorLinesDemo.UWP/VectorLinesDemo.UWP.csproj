@@ -59,7 +59,7 @@
     <MonoGameContentReference Include="Content\Content.mgcb" />
   </ItemGroup>
   <Import Project="..\VectorLinesDemo.Shared\VectorLinesDemo.Shared.projitems" Label="Shared" />
-  <Import Project="..\Triangle.NET\Triangle.NET.projitems" Label="Shared" />
+  <Import Project="..\VectorLinesDemo.Triangle.NET\VectorLinesDemo.Triangle.NET.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

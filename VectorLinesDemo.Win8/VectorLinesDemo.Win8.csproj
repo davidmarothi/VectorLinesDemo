@@ -144,7 +144,7 @@
     </Reference>
   </ItemGroup>
   <Import Project="..\VectorLinesDemo.Shared\VectorLinesDemo.Shared.projitems" Label="Shared" />
-  <Import Project="..\Triangle.NET\Triangle.NET.projitems" Label="Shared" />
+  <Import Project="..\VectorLinesDemo.Triangle.NET\VectorLinesDemo.Triangle.NET.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>

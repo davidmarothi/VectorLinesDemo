@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>caadd174-27c6-4999-af66-aeca3bf28b37</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>VectorLinesDemo.Triangle.NET</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Algorithm\Dwyer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Algorithm\Incremental.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Algorithm\ITriangulator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Algorithm\SweepLine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BadTriQueue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Behavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Carver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\BadSubseg.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\BadTriangle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Osub.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Otri.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Segment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Triangle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Vertex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geometry\BoundingBox.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geometry\Edge.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geometry\EdgeEnumerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geometry\InputGeometry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geometry\ISegment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geometry\ITriangle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geometry\Point.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geometry\RegionPointer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\DataReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\DebugWriter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\FileReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\FileWriter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\IGeometryFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\IMeshFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\InputTriangle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IO\TriangleFormat.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Log\ILog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Log\ILogItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Log\SimpleLog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Log\SimpleLogItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mesh.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NewLocation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Quality.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sampler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Smoothing\ISmoother.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Smoothing\SimpleSmoother.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\AdjacencyMatrix.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\BoundedVoronoi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\CuthillMcKee.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\IVoronoi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\QuadTree.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\QualityMeasure.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\RegionIterator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\Statistic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\Voronoi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tools\VoronoiRegion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TriangleLocator.cs" />
+  </ItemGroup>
+</Project>
